@@ -1,0 +1,727 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "75ce4385-5df9-11ea-8af9-b42e99a8bb2e",
+    "deck_config_uuid": "75ce4386-5df9-11ea-a20b-b42e99a8bb2e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "75ce4386-5df9-11ea-a20b-b42e99a8bb2e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "Au revoir.mp3",
+        "Avez-vous de la place pour trois personnes.mp3",
+        "C'est ma fille.mp3",
+        "C'est notre fille..mp3",
+        "C'était très bien.mp3",
+        "Combien coûte-t-il.mp3",
+        "Comment ça va.mp3",
+        "Excusez-moi, où sont les toilettes s'il vous plaît.mp3",
+        "Il n'y a pas de papier toilette.mp3",
+        "Je dois apprendre le français..mp3",
+        "Je ne comprends pas.mp3",
+        "Je ne mange pas de poulet..mp3",
+        "Je suis un expert en dommages aux bâtiments (1).mp3",
+        "Je suis végétarien..mp3",
+        "Le petit déjeuner est prêt.mp3",
+        "Malheureusement, je ne parle pas bien le français.mp3",
+        "Merci beaucoup.mp3",
+        "Non, merci.mp3",
+        "Oui, s'il te plait.mp3",
+        "Parlez-vous allemand.mp3",
+        "Pouvez-vous m'expliquer cela.mp3",
+        "Puis-je avoir un verre d'eau, s'il vous plaît.mp3",
+        "Puis-je me garer ici.mp3",
+        "Puis-je utiliser les toilettes s'il vous plaît.mp3",
+        "S'il vous plaît bière sans alcool.mp3",
+        "S'il vous plaît excusez moi.mp3",
+        "S'il vous plaît menu en langue allemande.mp3",
+        "S'il vous plaît payer..mp3",
+        "S'il vous plaît seulement avec de l'eau du robinet.mp3",
+        "S'il vous plaît un spritzer de pomme!.mp3",
+        "S'il vous plaît, sans carbonation!.mp3",
+        "Voulez-vous m'aider s'il vous plaît.mp3",
+        "Y a-t-il déjà le petit déjeuner.mp3",
+        "merci bien et toi.mp3",
+        "quatre, cinq, six.mp3",
+        "sept, huit, neuf, dix.mp3",
+        "un deux trois quatre cinq.mp3",
+        "un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.mp3",
+        "À la vôtre.ogg"
+    ],
+    "name": "France",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "75ce6a8f-5df9-11ea-a238-b42e99a8bb2e",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Einfach-d1c86",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Forward",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Einfach-a5a3a",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich muss Französich lernen.",
+                "Je dois apprendre le français.&nbsp;[sound:Je dois apprendre le français..mp3]"
+            ],
+            "flags": 0,
+            "guid": "pmzx<sX*r(",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a8f-5df9-11ea-a238-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kann ich bitte ein Glas Wasser haben?&nbsp;",
+                "Puis-je avoir un verre d'eau, s'il vous plaît?&nbsp;[sound:Puis-je avoir un verre d'eau, s'il vous plaît.mp3]"
+            ],
+            "flags": 0,
+            "guid": "OMByg16YqP",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Darf ich bitte die Toilette benutzen?",
+                "Puis-je utiliser les toilettes s'il vous plaît?&nbsp;[sound:Puis-je utiliser les toilettes s'il vous plaît.mp3]"
+            ],
+            "flags": 0,
+            "guid": "mR)B(^S:a4",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Entschuldigen Sie, Wo sind bitte die Toiletten?",
+                "Excusez-moi, où sont les toilettes s'il vous plaît?&nbsp;[sound:Excusez-moi, où sont les toilettes s'il vous plaît.mp3]"
+            ],
+            "flags": 0,
+            "guid": "db&xoq?*h}",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guten Apetitt!",
+                "Bon appètit!"
+            ],
+            "flags": 0,
+            "guid": "Qv!,bVO@zQ",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Frühstück ist fertig!</div>",
+                "Le petit déjeuner est prêt!&nbsp;[sound:Le petit déjeuner est prêt.mp3]"
+            ],
+            "flags": 0,
+            "guid": "F<O;b,C.d7",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gibt es schon Frühstück?&nbsp;",
+                "Y a-t-il déjà le petit déjeuner?&nbsp;[sound:Y a-t-il déjà le petit déjeuner.mp3]"
+            ],
+            "flags": 0,
+            "guid": "}>OdSH|GE",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vielen Dank!",
+                "Merci beaucoup!&nbsp;[sound:Merci beaucoup.mp3]"
+            ],
+            "flags": 0,
+            "guid": "AZLsI;VK~a",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte eine Apfelschorle!&nbsp;",
+                "S'il vous plaît un spritzer de pomme!&nbsp;[sound:S'il vous plaît un spritzer de pomme!.mp3]"
+            ],
+            "flags": 0,
+            "guid": "o,^8<;D751",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte ohne Kohlensäure!&nbsp;",
+                "S'il vous plaît, sans carbonation!&nbsp;[sound:S'il vous plaît, sans carbonation!.mp3]"
+            ],
+            "flags": 0,
+            "guid": "O35UHwyKRB",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte nur mit Leitungswasser!&nbsp;",
+                "S'il vous plaît seulement avec de l'eau du robinet!&nbsp;[sound:S'il vous plaît seulement avec de l'eau du robinet.mp3]"
+            ],
+            "flags": 0,
+            "guid": "q9,E5X=s8_",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte zahlen.&nbsp;",
+                "S'il vous plaît payer.&nbsp;[sound:S'il vous plaît payer..mp3]"
+            ],
+            "flags": 0,
+            "guid": "CRn5_<Qxoz",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Können Sie mir das bitte erklären?",
+                "Pouvez-vous m'expliquer cela?&nbsp;[sound:Pouvez-vous m'expliquer cela.mp3]"
+            ],
+            "flags": 0,
+            "guid": "tVUZqm4]*z",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich verstehe nicht.",
+                "Je ne comprends pas.&nbsp;&nbsp;[sound:Je ne comprends pas.mp3]"
+            ],
+            "flags": 0,
+            "guid": "AiW1Fm$sK6",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sprechen Sie Deutsch?",
+                "Parlez-vous allemand?&nbsp;[sound:Parlez-vous allemand.mp3]"
+            ],
+            "flags": 0,
+            "guid": "v-DA/m4ebn",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Auf Wiedersehen!",
+                "Au revoir!&nbsp;[sound:Au revoir.mp3]"
+            ],
+            "flags": 0,
+            "guid": "zce56fQucJ",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie geht es Ihnen?",
+                "Comment ça va?&nbsp;[sound:Comment ça va.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Ec.DF2GGfZ",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Danke gut und selbst?&nbsp;",
+                "Merci bien et toi?&nbsp;[sound:merci bien et toi.mp3]"
+            ],
+            "flags": 0,
+            "guid": "K(:,HyPr[I",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Entschuldigen sie bitte.</div>",
+                "S'il vous plaît excusez moi.&nbsp;[sound:S'il vous plaît excusez moi.mp3]"
+            ],
+            "flags": 0,
+            "guid": "DU@Yl_R.bm",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ja bitte.&nbsp;",
+                "Oui, s'il te plait.&nbsp;[sound:Oui, s'il te plait.mp3]"
+            ],
+            "flags": 0,
+            "guid": "el&Q1lU7o:",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nein, danke.&nbsp;",
+                "Non, merci.&nbsp;[sound:Non, merci.mp3]"
+            ],
+            "flags": 0,
+            "guid": "Jt5>=J,u/Y",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte alkoholfreies Bier?",
+                "S'il vous plaît bière sans alcool?&nbsp;[sound:S'il vous plaît bière sans alcool.mp3]"
+            ],
+            "flags": 0,
+            "guid": "vlU3x8~~_B",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wieviel kostet es?",
+                "Combien coûte-t-il?&nbsp;[sound:Combien coûte-t-il.mp3]"
+            ],
+            "flags": 0,
+            "guid": "s;y1~Up~Fb",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Darf ich hier parken?&nbsp;",
+                "Puis-je me garer ici?&nbsp;[sound:Puis-je me garer ici.mp3]"
+            ],
+            "flags": 0,
+            "guid": "x$Du=DbZar",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Haben Sie Platz für drei Personen?",
+                "Avez-vous de la place pour trois personnes?&nbsp;[sound:Avez-vous de la place pour trois personnes.mp3]"
+            ],
+            "flags": 0,
+            "guid": "g8IPe?!%i(",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bitte Speisekarte in deutscher Sprache?",
+                "S'il vous plaît menu en langue allemande?&nbsp;[sound:S'il vous plaît menu en langue allemande.mp3]"
+            ],
+            "flags": 0,
+            "guid": "j[exk-Awzf",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das war sehr gut!&nbsp;",
+                "C'était très bien!&nbsp;[sound:C'était très bien.mp3]"
+            ],
+            "flags": 0,
+            "guid": "iRGOKQUUhI",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prost!&nbsp;",
+                "À la votre!&nbsp;[sound:À la vôtre.ogg]"
+            ],
+            "flags": 0,
+            "guid": "vEf$LI0]o3",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das ist meine Tochter.",
+                "C'est ma fille.&nbsp;[sound:C'est ma fille.mp3]"
+            ],
+            "flags": 0,
+            "guid": "cVS^)W{@a%",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das ist unsere Tochter.",
+                "C'est notre fille.&nbsp;[sound:C'est notre fille..mp3]"
+            ],
+            "flags": 0,
+            "guid": "Ind_!lXqz@",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Helfen Sie mir bitte?&nbsp;",
+                "Voulez-vous m'aider s'il vous plaît?&nbsp;[sound:Voulez-vous m'aider s'il vous plaît.mp3]"
+            ],
+            "flags": 0,
+            "guid": "v!lG!@%G.<",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eins, zwei, drei&nbsp;",
+                "un deux trois quatre cinq&nbsp;[sound:un deux trois quatre cinq.mp3]"
+            ],
+            "flags": 0,
+            "guid": "nd2W_Gk>}|",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "vier, fünf, sechs",
+                "quatre, cinq, six&nbsp;[sound:quatre, cinq, six.mp3]"
+            ],
+            "flags": 0,
+            "guid": "BGY53pO:Lj",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "sieben, acht, neun, zehn",
+                "sept, huit, neuf, dix&nbsp;[sound:sept, huit, neuf, dix.mp3]"
+            ],
+            "flags": 0,
+            "guid": "G{1kTP&pum",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn&nbsp;",
+                "un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix&nbsp;[sound:un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.mp3]"
+            ],
+            "flags": 0,
+            "guid": "LL+i1Jf&^,",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich bin ein Experte für Schäden an Gebäuden.",
+                "Je suis un expert en dommages aux bâtiments.&nbsp;[sound:Je suis un expert en dommages aux bâtiments (1).mp3]"
+            ],
+            "flags": 0,
+            "guid": "B:[+2S(Dy:",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich spreche leider nicht gut französich.",
+                "Malheureusement, je ne parle pas bien le français.&nbsp;[sound:Malheureusement, je ne parle pas bien le français.mp3]"
+            ],
+            "flags": 0,
+            "guid": "OG_2v)<^F]",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich bin Vegetarier.",
+                "Je suis végétarien. &nbsp;[sound:Je suis végétarien..mp3]"
+            ],
+            "flags": 0,
+            "guid": "I8`=XlJlpT",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ich esse kein Huhn.",
+                "Je ne mange pas de poulet.&nbsp;[sound:Je ne mange pas de poulet..mp3]"
+            ],
+            "flags": 0,
+            "guid": "wnv8{Xq-zl",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Es gibt kein Toilettenpapier.",
+                "Il n'y a pas de papier toilette. &nbsp;[sound:Il n'y a pas de papier toilette.mp3]"
+            ],
+            "flags": 0,
+            "guid": "v)kQ0Jpy6e",
+            "newlyAdded": false,
+            "note_model_uuid": "75ce6a92-5df9-11ea-b63e-b42e99a8bb2e",
+            "tags": []
+        }
+    ]
+}
